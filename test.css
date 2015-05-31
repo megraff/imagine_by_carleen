@@ -1,0 +1,50 @@
+*{
+	font-family: "STHeiti";
+}
+
+/*.clear{
+	clear: both;
+}*/
+
+#nav ul{
+	list-style: none;
+	width: 100%;
+	text-align: center;
+}
+
+#nav li{
+	float: left;
+	display: block;
+	/*z-index: 500;*/
+	margin: 0 10px;
+	position: relative;
+}
+
+#nav li a{
+	display: block;
+	padding: 8px 5px 0px 5px;
+	text-decoration: none;
+	text-align: center;
+	color: #897F7F;
+}
+
+/*#nav li a:hover{
+	color: #897F7F;
+}*/
+
+.drop{
+	position: absolute;
+	left: 0;
+	display: none;
+	margin: 0 0 0 -10px;
+	padding: 0px;
+	list-style: none;
+}
+
+.drop li{
+	float: left;
+}
+
+.drop li a{
+	display: block;
+}
